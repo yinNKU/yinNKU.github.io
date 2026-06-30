@@ -1,0 +1,23 @@
+# Jekyll Configuration for GitHub Pages
+title: 反诈骗知识库
+description: 基于真实案例整理的13种高发电信诈骗类型 — 防骗手册
+url: https://yinNKU.github.io
+lang: zh-CN
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - README.md
+  - .git
+  - .gitignore
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
